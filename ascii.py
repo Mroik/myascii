@@ -22,7 +22,7 @@ def update(word,word_eol,userdata):
 xchat.hook_command("ASCUP",update)
 
 def ascii(word,word_eol,userdata):
-    text = open("/home/mirko/myascii/"+word[1]+".txt")
+    text = open("/home/mirko/myascii/ascii/"+word[1]+".txt")
     for line in text:
         xchat.command("say "+chr(3)+"9,1"+line)
     text.close
@@ -30,7 +30,7 @@ def ascii(word,word_eol,userdata):
 xchat.hook_command("ASCII",ascii)
 
 def ascii2(word,word_eol,userdata):
-    text = open("/home/mirko/myascii/"+word[1]+".txt")
+    text = open("/home/mirko/myascii/ascii2/"+word[1]+".txt")
     for line in text:
         line = line.replace("+",chr(3)+"9,9+")
         line = line.replace("-",chr(3)+"1,1-")
