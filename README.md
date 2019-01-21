@@ -1,3 +1,4 @@
 # myascii
-stash of ascii art
-Notice that this ascii aren't mine(i suck at making 'em), most of them were taken from http://git.volatile.bz/krustykrab/ascii-art
+Stash of ascii art(which I didn't make).
+
+Notice that this ascii aren't mine, most of them were taken from http://git.volatile.bz/krustykrab/ascii-art
